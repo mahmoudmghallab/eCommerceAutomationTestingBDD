@@ -16,6 +16,7 @@ public class Hooks {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get("https://demo.nopcommerce.com/");
+
     }
     @After
     public static void quitDriver() throws InterruptedException {
